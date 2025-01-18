@@ -8,7 +8,7 @@ int main() {
     scanf("%d",&d);
     for(int i=0; i<d; i++){
         scanf("%d %c %f",&a,&b,&c);
-        printf("Roll Number: %d, Name: %c, Marks: %f\n");
+        printf("Roll Number: %d, Name: %c, Marks: %f\n",a,b,c);
     }
     
     
