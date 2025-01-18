@@ -4,7 +4,7 @@
 int main() {
     int d,a;
     float c;
-    char name[50];
+    char b[50];
     scanf("%d",&d);
     for(int i=0; i<d; i++){
         scanf("%d %c %f",&a,&b,&c);
