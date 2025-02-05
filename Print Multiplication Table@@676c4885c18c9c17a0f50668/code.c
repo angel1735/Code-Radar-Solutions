@@ -6,6 +6,5 @@ int main() {
     for(i=1;i<=a;i++){
         printf("%d x %d = %d\n",n,i,n*i);
     }
-    
     return 0;
 }
