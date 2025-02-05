@@ -3,11 +3,10 @@
 
 
 int main() {
-    int n,p;
+    int n;
     scanf("%d",&n);
     for(int i=1;i<a;i++){
-        p*=i;
-        printf("%d x %d = %d",n,i,p);
+        printf("%d x %d = %d",n,i,n*i);
     }
     
     return 0;
