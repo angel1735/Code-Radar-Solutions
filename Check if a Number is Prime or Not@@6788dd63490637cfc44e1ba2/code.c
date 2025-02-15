@@ -1,8 +1,6 @@
 // Your code here...
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <math.h>
+
 int main(){
     int n,i;
     
