@@ -1,23 +1,22 @@
-// Your code here...
 #include <stdio.h>
 
-int main(){
-    int n,i;
+int main() {
+    int n, i;
     
-    scanf("%d",&n);
-    if(n<2)
-    {
-        printf("not a prime number.\n");
+    scanf("%d", &n);
+    
+    if (n < 2) {
+        printf("Not Prime.\n");
         return 0;
     }
-    for(i=2;i*i<=n;i++) {
-        if(n%i==0) {
+
+    for (i = 2; i * i <= n; i++) {
+        if (n % i == 0) {
             printf("Not Prime.\n");
+            return 0; // Exit immediately if a divisor is found
         }
-        else{
-            printf("Prime.\n");
-            }
     }
+
+    printf("Prime.\n"); // If no divisors were found, it's prime
     return 0;
 }
-
