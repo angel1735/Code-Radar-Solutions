@@ -12,11 +12,11 @@ int main() {
 
     for (i = 2; i * i <= n; i++) {
         if (n % i == 0) {
-            printf("Not Prime.\n");
+            printf("Not Prime\n");
             return 0; // Exit immediately if a divisor is found
         }
     }
 
-    printf("Prime.\n"); // If no divisors were found, it's prime
+    printf("Prime\n"); // If no divisors were found, it's prime
     return 0;
 }
