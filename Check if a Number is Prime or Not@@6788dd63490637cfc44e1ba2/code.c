@@ -5,7 +5,7 @@
 #include <math.h>
 int main(){
     int n,i;
-    printf("enter your number= ");
+    
     scanf("%d",&n);
     if(n<2)
     {
