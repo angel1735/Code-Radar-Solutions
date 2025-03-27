@@ -1,17 +1,13 @@
-// Your code here...
-// Your code here...
 #include<stdio.h>
 int peak(int arr[],int n){
     if (n==1){
         return arr[0];
-        }
+    }
     if(arr[0]>arr[1]){
         return arr[0];
-        }
-    for(int i=0;i<n-2;i++){
-       
+    }
+    for(int i=1;i<n-2;i++){
         if(arr[i]>arr[i+1] && arr[i-1]<arr[i]){
-            
             printf("%d",arr[i]);
             break;
         }  
@@ -19,7 +15,6 @@ int peak(int arr[],int n){
     if(arr[n-1]>arr[n-2]){
         return arr[n-1];
     }
-    
     return -1;
     
 }
@@ -28,8 +23,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d ",&arr[i]);
-        
+        scanf("%d ",&arr[i]);   
     }
     int p=peak(arr,n);
     printf("%d",p);
