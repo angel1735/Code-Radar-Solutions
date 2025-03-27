@@ -1,16 +1,5 @@
 // Your code here...
 #include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n-1;i++){
-        scanf("%d ",&arr[i]);
-        
-    }
-    checksort(arr);
-    return 0;
-}
 void checksort(int arr){
     int sorted=1;
     for(int i=0;i<n-1;i++){
@@ -26,5 +15,17 @@ void checksort(int arr){
     }else{
         printf("Not Sorted");
     }
+    
+}
+
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n-1;i++){
+        scanf("%d ",&arr[i]);
+        
+    }
+    checksort(arr);
     return 0;
 }
