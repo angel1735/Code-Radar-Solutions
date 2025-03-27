@@ -2,7 +2,6 @@
 // Your code here...
 #include<stdio.h>
 int peak(int arr[],int n){
-    
     if (n==1){
         return arr[0];
         }
@@ -32,6 +31,7 @@ int main(){
         scanf("%d ",&arr[i]);
         
     }
-    printf("%d",peak(arr,n));
+    int peak=peak(arr,n);
+    printf("%d",peak);
     return 0;
 }
