@@ -6,7 +6,7 @@ int peak(int arr[],int n){
     if (n==1){
             return arr[0];
         }
-        if(arr[0]>arr[1]){
+    if(arr[0]>arr[1]){
             return arr[0];
         }
     for(int i=0;i<n-2;i++){
