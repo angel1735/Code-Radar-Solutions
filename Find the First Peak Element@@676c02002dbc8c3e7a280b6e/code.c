@@ -10,7 +10,7 @@ void peak(int arr[],int n){
             break;
         }  
     }
-    if !(found){
+    if (!found){
         return -1;
     }
 }
