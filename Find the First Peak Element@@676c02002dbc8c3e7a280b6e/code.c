@@ -31,7 +31,7 @@ int main(){
         scanf("%d ",&arr[i]);
         
     }
-    int peak=peak(arr,n);
-    printf("%d",peak);
+    int p=peak(arr,n);
+    printf("%d",p);
     return 0;
 }
