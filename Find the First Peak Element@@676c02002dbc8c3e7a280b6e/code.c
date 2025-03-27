@@ -14,7 +14,7 @@ int peak(int arr[],int n){
         if(arr[i]>arr[i+1] && arr[i-1]<arr[i]){
             
             printf("%d",arr[i]);
-            break;
+            //break;
         }  
     }
     if(arr[n-1]>arr[n-2]){
