@@ -5,7 +5,7 @@
 void checksort(int arr[],int n){
 
 
-    int visited[],c=0;
+    int visited[n],c=0;
     for(int i=0;i<n;i++){
             visited[i]=0;
             
