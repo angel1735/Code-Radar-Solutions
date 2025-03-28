@@ -15,7 +15,7 @@ void checksort(int arr[],int n){
             min=i;
         }  
     }
-    printf("%d %d",min,max);
+    printf("%d %d",arr[min],arr[max]);
     
 }
 int main(){
