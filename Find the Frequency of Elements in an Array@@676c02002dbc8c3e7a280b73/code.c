@@ -15,17 +15,19 @@ void checksort(int arr[],int n){
             continue;
         }
             
-        }
+        
     
-    for(int j=i+1;j<n;j++){
-        if(arr[value]=arr[i]){
-            visited[i]=1;
-            c++;
-        }
+        for(int j=i+1;j<n;j++){
+            if(arr[value]=arr[i]){
+                visited[i]=1;
+                c++;
+            }
 
         
     }
     printf("%d %d",arr[i],c);
+    }
+    
     
 }
 int main(){
