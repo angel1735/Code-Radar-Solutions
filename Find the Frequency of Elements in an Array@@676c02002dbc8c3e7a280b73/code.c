@@ -7,19 +7,19 @@ void checksort(int arr[],int n){
     for(int i=0;i<n;i++){
             visited[i]=0;
             
-        }
+    }
     for(int i=0;i<n;i++){
         if(visited[i]==1){
             continue;
         } 
         int c=1;               
         for(int j=i+1;j<n;j++){
-            if(arr[j]=arr[i]){
+            if(arr[i]=arr[j]){
                 visited[j]=1;
                 c++;
             }        
-    }
-    printf("%d %d",arr[i],c);
+        }
+    printf("%d %d\n",arr[i],c);
     }
     
     
