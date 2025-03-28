@@ -18,7 +18,7 @@ void checksort(int arr[],int n){
         
     
         for(int j=i+1;j<n;j++){
-            if(arr[value]=arr[i]){
+            if(arr[j]=arr[i]){
                 visited[i]=1;
                 c++;
             }
