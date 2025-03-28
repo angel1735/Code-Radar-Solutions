@@ -4,13 +4,13 @@
 void checksort(int arr[],int n){
     int sorted=1;
     int max=0;
-    for(int i=1;i<n-1;i++){
+    for(int i=1;i<n;i++){
         if(arr[i]>arr[max]){
             max=i;
         }  
     }
     int min=0;
-    for(int i=1;i<n-1;i++){
+    for(int i=1;i<n;i++){
         if(arr[i]<arr[min]){
             min=i;
         }  
