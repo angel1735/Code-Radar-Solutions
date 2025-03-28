@@ -1,0 +1,41 @@
+// Your code here...
+// Your code here...
+// Your code here...
+#include<stdio.h>
+void checksort(int arr[],int n){
+
+
+    int visited,c=0;
+    for(int i=0;i<n;i++){
+            visited[i]=0;
+            
+        }
+    for(int i=0;i<n;i++){
+        if(visited[i]=1){
+            continue;
+        }
+            
+        }
+    
+    for(int i=1;i<n;i++){
+        if(arr[value]=arr[i]){
+            visited[i]=1;
+            c++;
+        }
+
+        
+    }
+    printf("%d %d",arr[i],c);
+    
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d ",&arr[i]);
+        
+    }
+    checksort(arr,n);
+    return 0;
+}
