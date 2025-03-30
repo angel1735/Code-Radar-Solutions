@@ -2,17 +2,17 @@
         for(int i=0;i<n-1;i++){
             for(int j=j+1;j>0;j--){
                 if(arr[j]<arr[j-1]){
-                    &swap(arr,j,j-1);
+                    swap(&arr[j],&arr[j-1]);
                 }else{
                     break;
                 }
             }
         }
     }
-    void* swap(int arr[],int a,int b){
+    void swap(int* arr[],int* a,int* b){
         int temp=a;
-        a=b;
-        b=temp;
+        *a=*b;
+        *b=temp;
     }
     void printArray(int arr[], int n) {
     for(int i = 0; i < n; i++) {
