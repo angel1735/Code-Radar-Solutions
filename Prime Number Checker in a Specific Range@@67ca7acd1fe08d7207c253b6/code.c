@@ -5,7 +5,7 @@ int printPrimesInRange(int a,int b){
         return 0;
     }
     for(int i=a;i*i<=b;i++){
-        if(num%2==0){
+        if(i%2==0){
             printf("No prime numbers");
         }else{
             printf("%d ",i);
