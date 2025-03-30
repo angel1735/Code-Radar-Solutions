@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 void printPalindromicTriangle(int n) {
-    for () {
+    
         // Print leading spaces for acute triangle shape
         for(int i=1;i>=n;i++){
             for(int space=1;space<=n-i;space++){
@@ -19,7 +19,7 @@ void printPalindromicTriangle(int n) {
         
         printf("\n");
     }
-}
+
 
 int main() {
     int n;
