@@ -1,14 +1,16 @@
 // Your code here...
-bool isPrime(int num){
+int isPrime(int num){
     if(num<=1){
-        return false;
+        return 0;
     }
+    if (num == 2) return 1;
+    if (num % 2 == 0) return 0;
     for(int i=2;i*i<=num;i++){
         if(i%2==0){
-            return false;
+            return 0;
         }
     }
-    return true;
+    return 1;
 }
 int printPrimesInRange(int a,int b){
     if(a>b||b<2){
