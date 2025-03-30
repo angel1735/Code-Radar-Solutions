@@ -1,21 +1,16 @@
-// Your code here...
-// Your code here...
-void selectionSort(int arr[],int n){
-    for(int i=0;i<n-1;i++){
-        int last=n-i-1;
-        int maxIndex=0;
-        for(int j=1;j<=last;j++){
-            if(arr[j]>arr[maxIndex]){
-                maxIndex=j;
+ void Insertion(int arr[]){
+        for(int i=0;i<n-1;i++){
+            for(int j=j+1;j>0;j--){
+                if(arr[j]<arr[j-1]){
+                    swap(arr,j,j-1);
+                }else{
+                    break;
+                }
             }
         }
-        int temp=arr[maxIndex];
-        arr[maxIndex]=arr[last];
-        arr[last]=temp;
     }
-}
-int printArray(int arr[],int n){
-    for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
+    void printArray(int arr[], int n) {
+    for(int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
     }
 }
