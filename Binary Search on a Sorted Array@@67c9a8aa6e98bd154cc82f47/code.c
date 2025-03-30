@@ -10,10 +10,10 @@ int binarySearch(int arr[],int n,int target){
             return mid;
         }
         else if(target<arr[mid]){
-            mid=mid/2;
+            last=mid-1;
         }
         else if(target>arr[mid]){
-            mid/=2;
+            last=mid+1;
         }
         
     }
