@@ -4,7 +4,7 @@
 void printPalindromicTriangle(int n) {
     
         // Print leading spaces for acute triangle shape
-        for(int i=1;i>=n;i++){
+        for(int i=1;i<=n;i++){
             for(int space=1;space<=n-i;space++){
                 printf(" ");
             }
