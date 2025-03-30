@@ -1,7 +1,7 @@
 // Your code here...
 int binarySearch(int arr[],int n,int target){
     if(n%2==0){
-        mid=(n+1)/2;
+        int mid=(n+1)/2;
     }
     else{
         int mid=n/2;
