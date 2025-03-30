@@ -1,6 +1,12 @@
 // Your code here...
 int binarySearch(int arr[],int n,int target){
-    int mid=n/2;
+    if(n%2==0){
+        mid=(n+1)/2;
+    }
+    else{
+        int mid=n/2;
+    }
+    
     for(int i=1;i<=n;i++){
         if(target==arr[mid]){
             return mid;
