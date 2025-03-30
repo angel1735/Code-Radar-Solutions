@@ -16,11 +16,6 @@ void printPalindromicTriangle(int n) {
             }
         }
         
-        // Print increasing numbers
-        for
-        
-        // Print decreasing numbers (palindrome part)
-        for 
         
         printf("\n");
     }
