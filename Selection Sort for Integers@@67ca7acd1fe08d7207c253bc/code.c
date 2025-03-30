@@ -1,6 +1,6 @@
 // Your code here...
 // Your code here...
-void insertionSort(int arr[],int n){
+void selectionSort(int arr[],int n){
     for(int i=0;i<n-1;i++){
         int last=n-i-1;
         int maxIndex=0;
